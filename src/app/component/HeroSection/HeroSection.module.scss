@@ -1,0 +1,30 @@
+$primary-color: #100D0D;
+$secondary-color: #C1A221;
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.title {
+  color: $primary-color;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: $secondary-color;
+  font-size: 1.5rem;
+}
+
+.imageWrapper {
+  max-width: 50%;
+  // Ajoutez des styles supplémentaires pour l'image ou l'animation si nécessaire
+}

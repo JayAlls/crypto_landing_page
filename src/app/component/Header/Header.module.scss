@@ -1,0 +1,29 @@
+$header-bg: #100D0D;
+$cta-bg: #C1A221;
+$cta-bg-hover: #f2F2F2;
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: $header-bg;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 50px; // Ajustez selon la taille de votre logo
+}
+
+.ctaButton {
+  padding: 10px 20px;
+  background-color: $cta-bg;
+  color: $header-bg;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  &:hover {
+    background-color: $cta-bg-hover;
+  }
+}
