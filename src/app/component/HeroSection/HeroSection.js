@@ -10,7 +10,7 @@ const HeroSection = () => {
       </div>
       <div className={styles.imageWrapper}>
         {/* Remplacez 'path-to-your-image.png' par le chemin de votre image ou animation */}
-        <Image src="/path-to-your-image.png" alt="Hero Image" width={500} height={300} />
+        <Image src="/C.png" alt="Hero Image" width={500} height={500} />
       </div>
     </section>
   );
