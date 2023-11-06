@@ -1,7 +1,6 @@
 .whitepaper {
     font-family: Arial, sans-serif;
-    max-width: 1920px;
-    margin: 20px auto;
+    margin: 100px;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -23,9 +22,16 @@
       font-weight: bold;
       font-size: 1.6rem;
     }
-  
+    
     ul {
       list-style: inside;
+      li {
+        line-height: 1.6;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #F2F2F2;
+        text-align: left;
+      }
     }
   }
   
