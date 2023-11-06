@@ -1,3 +1,4 @@
+'use clients'
 import styles from './HeroSection.module.scss';
 import Image from 'next/image';
 

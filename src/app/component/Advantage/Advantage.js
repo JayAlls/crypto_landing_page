@@ -1,3 +1,4 @@
+'use client'
 // components/Advantages.js
 import styles from './Advantage.module.scss';
 

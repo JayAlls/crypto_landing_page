@@ -1,0 +1,51 @@
+.whitepaper {
+    font-family: Arial, sans-serif;
+    max-width: 1920px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  
+    h2 {
+        font-weight: bold;
+        color: transparent;
+        background-image:linear-gradient(to right, #ffcc00, #C1A221);
+        background-clip: text;
+        -webkit-background-clip: text; /* Pour la compatibilité avec Safari */
+        -webkit-text-fill-color: transparent; /* Pour la compatibilité avec Safari */
+        font-size: 4rem;
+    }
+  
+    p {
+      color: #F2F2F2;
+      line-height: 1.6;
+      text-align: left;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  
+    ul {
+      list-style: inside;
+    }
+  }
+  
+  .downloadButton {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background: rgb(255,204,0);
+    background: linear-gradient(90deg, rgba(255,204,0,1) 0%, rgba(193,162,33,1) 100%);;
+    border: 5px solid #C1A221;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+    &:hover {
+        filter:brightness(0.9);
+    }
+  }
+  
