@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <img src="C.png" alt="Logo" className={styles.logo} /> 
-      <button className={styles.ctaButton}>Rejoignez-nous</button>
+      <button className={styles.ctaButton}>Connect Wallet</button>
     </header>
   );
 };
