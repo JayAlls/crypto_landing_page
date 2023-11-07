@@ -5,7 +5,7 @@
   border-radius: 30px;
   box-shadow: 0px 0px 20px #000;
   margin: 100px;
-  color: #F2F2F2; // J'ai ajouté une couleur de texte par défaut pour correspondre au fond sombre
+  color: #F2F2F2; 
 
   h2 {
     font-size: 3rem;
@@ -21,6 +21,7 @@
 
 .timeline {
   position: relative;
+  height: 1000px;
   &:before {
     content: '';
     position: absolute;
@@ -28,7 +29,7 @@
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: #C1A221; // Couleur de la ligne de temps ajustée
+    background-color: #C1A221; 
     transform: translateX(-50%);
   }
 }
