@@ -5,6 +5,7 @@
     border-radius: 30px;
     box-shadow: 0px 0px 20px #000;
     margin: 100px auto;
+    
   
     h2 {
       font-size: 3rem;
@@ -50,18 +51,14 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
     font-size: 1.6rem;
     color: #100D0D;
-    transition: all 0.4s ease-in-out;
   
     &.active {
-      max-height: 1000px; // Ajustez cette valeur en fonction du contenu
-    }
-
-    &.desactive {
-        display: none;
+      max-height: 1000px; 
+      visibility: visible;
     }
   }
   

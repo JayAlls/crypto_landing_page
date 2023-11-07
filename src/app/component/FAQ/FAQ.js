@@ -33,7 +33,7 @@ const FAQ = () => {
             <div className={styles.faqQuestion} onClick={() => toggleFAQ(index)}>
               {faq.question}
             </div>
-            <div className={`${styles.faqAnswer} ${activeIndex === index ? styles.active : styles.desactive}`}>
+            <div className={`${styles.faqAnswer} ${activeIndex === index ? styles.active : ''}`}>
               {faq.answer}
             </div>
           </div>

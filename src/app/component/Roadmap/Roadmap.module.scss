@@ -28,7 +28,7 @@
     left: 50%;
     top: 0;
     bottom: 0;
-    width: 2px;
+    width: 5px;
     background-color: #C1A221; 
     transform: translateX(-50%);
   }
@@ -38,14 +38,14 @@
   position: relative;
   width: 50%;
   padding: 20px;
-  margin: 15px 5px;
+  margin: 15px 1px;
   box-sizing: border-box;
 
   &:nth-child(odd) {
     float: left;
     text-align: right;
     clear: both;
-    margin: 15px 5px;
+    margin: 15px 1px;
     .stageContent {
       border-right: 2px solid #C1A221;
     }

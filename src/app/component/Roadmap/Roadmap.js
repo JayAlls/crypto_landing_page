@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import styles from './Roadmap.module.scss';
 
@@ -19,7 +20,6 @@ const Roadmap = () => {
       title: 'Q4 2023',
       content: 'Expansion internationale et nouvelles mises à jour.',
     },
-    // Ajoutez plus d'étapes si nécessaire
   ];
 
   return (
