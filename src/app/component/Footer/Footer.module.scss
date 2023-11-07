@@ -1,0 +1,29 @@
+.footer {
+    padding: 50px;
+    background-color: #100D0D;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #000;
+    margin: 100px auto;
+    text-align: center;
+    color: #F2F2F2;
+  
+    .socialLinks {
+      margin-bottom: 30px;
+  
+      .socialLink {
+        margin: 0 10px;
+        font-size: 1.9rem;
+        color: #F2F2F2;
+        transition: color 0.3s;
+  
+        &:hover {
+          color: #ffcc00;
+        }
+      }
+    }
+  
+    .copyRight {
+      font-size: 1.6rem;
+    }
+  }
+  
