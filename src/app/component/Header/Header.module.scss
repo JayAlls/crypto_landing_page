@@ -16,17 +16,77 @@ $cta-bg-hover: #f2F2F2;
 .ctaButton {
   padding: 10px 20px;
   font-weight: bold;
-  color: transparent;
-  background-image:linear-gradient(to right, #ffcc00, #C1A221);
+  background-image: linear-gradient(to right, #ffcc00, #C1A221);
   background-clip: text;
-  -webkit-background-clip: text; /* Pour la compatibilité avec Safari */
-  -webkit-text-fill-color: transparent; /* Pour la compatibilité avec Safari */
-  color: $header-bg;
+  -webkit-background-clip: text; // Pour la compatibilité avec Safari
+  -webkit-text-fill-color: transparent; // Pour la compatibilité avec Safari
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 1.8rem;
   &:hover {
     filter: brightness(0.9);
+  }
+}
+
+// Media queries
+@media (max-width: 1200px) {
+  .header {
+    padding: 0.5rem;
+  }
+
+  .logo {
+    height: 80px;
+  }
+
+  .ctaButton {
+    font-size: 1.6rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    align-items: center;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .ctaButton {
+    font-size: 1.4rem;
+    padding: 6px 12px;
+    margin-top: 10px; // Ajoutez une marge en haut pour l'espacement
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    align-items: center;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .ctaButton {
+    width: 30%; // Bouton pleine largeur sur les petits écrans
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 0.5rem;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .ctaButton {
+    font-size: 1rem;
+    padding: 5px 10px;
   }
 }

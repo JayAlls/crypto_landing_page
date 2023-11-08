@@ -10,8 +10,7 @@ const HeroSection = () => {
         <p className={styles.subtitle}>Découvrez un monde de possibilités avec notre crypto-monnaie révolutionnaire.</p>
       </div>
       <div className={styles.imageWrapper}>
-        {/* Remplacez 'path-to-your-image.png' par le chemin de votre image ou animation */}
-        <Image src="/C.png" alt="Hero Image" width={500} height={500} />
+      <img src="/C.png" alt="Logo" />
       </div>
     </section>
   );

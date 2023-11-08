@@ -4,7 +4,7 @@
   background-color: #100D0D;
   border-radius: 30px;
   box-shadow: 0px 0px 20px #000;
-  margin: 100px;
+  margin: 150px 40px;
   color: #F2F2F2; 
 
   h2 {
@@ -104,9 +104,19 @@
 }
 
 @media (max-width: 768px) {
+  .timeline {
+    height: 850px;
+  }
   .timeline:before {
     left: 20px;
   }
+
+  .roadmap {
+    h2 {
+      font-size: 1.6rem;
+    }
+  }
+
 
   .stage {
     width: 100%;
@@ -116,6 +126,13 @@
       .stageContent {
         border-right: none;
         border-left: none;
+        h3 {
+          font-size: 1.4rem;
+        }
+      
+        p {
+          font-size: 1.1rem;
+        }
       }
       .stageConnector {
         left: 4px;

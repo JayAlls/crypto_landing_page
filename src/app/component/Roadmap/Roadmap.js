@@ -24,7 +24,7 @@ const Roadmap = () => {
 
   return (
     <div className={styles.roadmap}>
-      <h2>Roadmap du Projet XYZ</h2>
+      <h2>Roadmap du Projet ChainToken</h2>
       <div className={styles.timeline}>
         {roadmapStages.map((stage, index) => (
           <div key={index} className={styles.stage}>

@@ -1,57 +1,104 @@
 .whitepaper {
-    font-family: Arial, sans-serif;
-    margin: 100px;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 100px auto; // Utilisez auto pour centrer
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+
+  h2 {
+    font-weight: bold;
+    background-image: linear-gradient(to right, #ffcc00, #C1A221);
+    background-clip: text;
+    -webkit-background-clip: text; // Pour la compatibilité avec Safari
+    -webkit-text-fill-color: transparent; // Pour la compatibilité avec Safari
+    font-size: 3rem;
+  }
+
+  p, ul li {
+    color: #F2F2F2;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
   
+  ul {
+    list-style: inside;
+  }
+}
+
+.downloadButton {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(255,204,0,1) 0%, rgba(193,162,33,1) 100%);
+  border: 5px solid #C1A221;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+@media (max-width: 992px) {
+  .whitepaper {
+    padding: 15px;
+
     h2 {
-        font-weight: bold;
-        color: transparent;
-        background-image:linear-gradient(to right, #ffcc00, #C1A221);
-        background-clip: text;
-        -webkit-background-clip: text; /* Pour la compatibilité avec Safari */
-        -webkit-text-fill-color: transparent; /* Pour la compatibilité avec Safari */
-        font-size: 3rem;
+      font-size: 2.5rem;
     }
-  
-    p {
-      color: #F2F2F2;
-      line-height: 1.6;
-      text-align: left;
-      font-weight: bold;
-      font-size: 1.6rem;
-    }
-    
-    ul {
-      list-style: inside;
-      li {
-        line-height: 1.6;
-        font-size: 1.4rem;
-        font-weight: bold;
-        color: #F2F2F2;
-        text-align: left;
-      }
+
+    p, ul li {
+      font-size: 1.4rem;
     }
   }
-  
+
   .downloadButton {
-    text-transform: uppercase;
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    color: #fff;
-    background: rgb(255,204,0);
-    background: linear-gradient(90deg, rgba(255,204,0,1) 0%, rgba(193,162,33,1) 100%);;
-    border: 5px solid #C1A221;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 1.8rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  
-    &:hover {
-        filter:brightness(0.9);
+    padding: 8px 18px;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .whitepaper {
+    padding: 10px;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p, ul li {
+      font-size: 1.2rem;
     }
   }
-  
+
+  .downloadButton {
+    padding: 6px 16px;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .whitepaper {
+    padding: 5px;
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    p, ul li {
+      font-size: 1rem;
+    }
+  }
+
+  .downloadButton {
+    padding: 4px 14px;
+    font-size: 1.2rem;
+  }
+}
